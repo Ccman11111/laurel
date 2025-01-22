@@ -1,13 +1,12 @@
 local toolBarModule = require(script.Parent.ToolbarModule)
 local widgetModule = require(script.Parent.WidgetModule)
 
-local ChangeHistoryService = game:GetService("ChangeHistoryService")
 local Selection = game:GetService("Selection")
 
-	local toolbar = plugin:CreateToolbar("Laurel Icon Pack")
-	local theme = settings().Studio.Theme:GetColor(Enum.StudioStyleGuideColor.MainBackground, Enum.StudioStyleGuideModifier.Disabled)
-	mainButton = toolbar:CreateButton("Open Icon Menu", "Opens the icon pack menu", toolBarModule.GetImagePerStudioTheme(theme))
-	mainButton.ClickableWhenViewportHidden = true
+local toolbar = plugin:CreateToolbar("Laurel Icon Pack")
+local theme = settings().Studio.Theme:GetColor(Enum.StudioStyleGuideColor.MainBackground, Enum.StudioStyleGuideModifier.Disabled)
+mainButton = toolbar:CreateButton("Open Icon Menu", "Opens the icon pack menu", toolBarModule.GetImagePerStudioTheme(theme))
+mainButton.ClickableWhenViewportHidden = true
 local mainWidget
 local searchBarActive = false
 local barInstance
@@ -22,8 +21,7 @@ local function onOpenUIButtonClicked()
 	barInstance = mainWidget.Frame:WaitForChild("TextBox")
 	selText = mainWidget.Frame:WaitForChild("Sel")
 	
-	
-	barInstance.Changed:Connect(function() local searchText = barInstance.Text widgetModule.FilterIconsFromSearch(searchText, mainWidget, searchBarActive) end)
+	barInstance.Changed:Connect(function() local searchText = barInstance.Text widgetModule.FilterIconsFromSearch(searchText, mainWidget, searchBarActive) end) --Changes colors for buttons
 	mainWidget.Frame.InstanceConfig.Grid.DecalIns.MouseButton1Click:Connect(function() 
 		mainWidget.Frame.InstanceConfig.Grid.DecalIns.BackgroundColor3 = Color3.new(0.545098, 1, 0.611765) 
 		mainWidget.Frame.InstanceConfig.Grid.ImgButton.BackgroundColor3 = Color3.new(1, 0.207843, 0.207843) 
@@ -39,8 +37,6 @@ local function onOpenUIButtonClicked()
 		mainWidget.Frame.InstanceConfig.Grid.ImgButton.BackgroundColor3 = Color3.new(1, 0.207843, 0.207843) 
 		mainWidget.Frame.InstanceConfig.Grid.ImgLabel.BackgroundColor3 = Color3.new(0.545098, 1, 0.611765) 
 	end)	
-	--ChangeHistoryService:SetWaypoint("Added new icon")
 end
 
 mainButton.Click:Connect(onOpenUIButtonClicked)
-
