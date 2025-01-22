@@ -14,28 +14,6 @@
 </p>
 
 
-## Sponsors
-
-**If you want to support our project and help me grow it, you can [become a sponsor on GitHub](https://github.com/sponsors/codecalm) or just [donate on PayPal](https://paypal.me/codecalm) :)**
-
-<a href="https://github.com/sponsors/codecalm">
-  <img src="https://cdn.jsdelivr.net/gh/tabler/sponsors@latest/sponsors.svg" alt="Tabler sponsors">
-</a>
-
-## Testing
-
-<p align="center">Browser testing via:</p>
-
-<p align="center">
-  <a href="https://www.lambdatest.com/" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/14dd2a0a-bafe-436e-a6cb-29636278c781">
-      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/d3dede5a-d702-47c3-bb66-4d887948ed83">
-      <img src="https://github.com/user-attachments/assets/d3dede5a-d702-47c3-bb66-4d887948ed83" alt="Tabler Icons preview" width="296">
-    </picture>
-  </a>
-</p>
-
 ## Preview
 
 ### Outline version (<!--icons-count-outline-->4918<!--/icons-count-outline--> icons)
