@@ -2,7 +2,7 @@
 **Fork of Tabler Icons**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tabler/tabler-icons/main/.github/packages/og-core.png" alt="Tabler Icons" width="838">
+  <img src="https://raw.githubusercontent.com/Ccman11111/laurel/refs/heads/main/github-assets/main-thumb-large.png" alt="Laurel Icon Pack" width="1520">
 </p>
 
 <p align="center">
