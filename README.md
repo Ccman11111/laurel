@@ -1,4 +1,5 @@
-# Tabler Icons
+# Laurel Icon Pack
+**Fork of Tabler Icons**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/tabler/tabler-icons/main/.github/packages/og-core.png" alt="Tabler Icons" width="838">
