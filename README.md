@@ -6,11 +6,11 @@
 </p>
 
 <p align="center">
-    A set of <!--icons-count-->5844<!--/icons-count--> free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a 2px stroke.
+    A set of <!--icons-count-->3,797<!--/icons-count--> free MIT-licensed high-quality icons for you to use in your Roblox Studio projects.†
 <p>
 
 <p align="center">
-  <a href="https://tabler.io/icons"><strong>Browse at tabler.io/icons &rarr;</strong></a>
+  <a href="https://tabler.io/icons"><strong>Browse full icon pack at tabler.io/icons &rarr;</strong></a>
 </p>
 
 
