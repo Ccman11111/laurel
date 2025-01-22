@@ -59,7 +59,7 @@ local module = {}
 					local SelService = game:GetService("Selection")
 					local ChangeHistoryService = game:GetService("ChangeHistoryService")
 					local selectedObjects = SelService:Get()
-					local parent = game:GetService("ServerScriptService")
+					local parent = game:GetService("Workspace")
 					if #selectedObjects > 0 then
 						parent = selectedObjects[1]
 					end
